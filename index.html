@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simon Says</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+      <header>
+      </header>
+    <main class="gameboard">
+      <section
+        id="celeste"
+        class="color celeste left"
+        data-color="celeste"
+      ></section>
+      <section
+        id="violeta"
+        class="color violeta right"
+        data-color="violeta"
+      ></section>
+      <section
+        id="naranja"
+        class="color naranja left"
+        data-color="naranja"
+      ></section>
+      <section
+        id="verde"
+        class="color verde right"
+        data-color="verde"
+      ></section>
+      <button id="btnStart" class="btn-start" onclick="StartGame()">
+        Start Play!
+      </button>
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js" integrity="sha512-AA1Bzp5Q0K1KanKKmvN/4d3IRKVlv9PYgwFPvm32nPO6QS8yH1HO7LbgB1pgiOxPtfeg5zEn2ba64MUcqJx6CA==" crossorigin="anonymous"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
